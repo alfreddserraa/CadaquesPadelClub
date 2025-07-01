@@ -14,7 +14,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
             background-color: #08007e;
-            color: #fee461;
+            color: #fff9dd;
             overflow-x: hidden;
         }
 
@@ -47,7 +47,7 @@
         .social-icon {
             width: 24px;
             height: 24px;
-            background-color: #fff;
+            background-color: #fff9dd;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -91,7 +91,7 @@
         }
 
         .nav-menu a {
-            color: #fee461;
+            color: #fff9dd;
             text-decoration: none;
             transition: color 0.3s ease;
             position: relative;
@@ -113,7 +113,7 @@
         }
 
         .cta-button {
-            background-color: #fff;
+            background-color: #fff9dd;
             color: #0b0264;
             padding: 12px 30px;
             border-radius: 25px;
@@ -123,7 +123,7 @@
         }
 
         .cta-button:hover {
-            background-color: #fee461;
+            background-color: #fff9dd;
             color: #0b0264;
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(74, 144, 226, 0.3);
@@ -132,7 +132,7 @@
         /* Sección Hero */
         .hero-section {
             height: 100vh;
-            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns="https://images.pexels.com/photos/31019813/pexels-photo-31019813.jpeg" viewBox="0 0 1920 1080"><rect fill="%234a90e2" width="1920" height="1080"/><path fill="%233a7fd2" d="M0 540L1920 0v540z"/></svg>');
+            background: linear-gradient(rgba(15, 0, 128, 0.3), rgba(63, 72, 250, 0.3)), url('data:image/svg+xml,<svg xmlns="https://images.pexels.com/photos/31019813/pexels-photo-31019813.jpeg" viewBox="0 0 1920 1080"><rect fill="%234a90e2" width="1920" height="1080"/><path fill="%233a7fd2" d="M0 540L1920 0v540z"/></svg>');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -169,7 +169,7 @@
             top: 30%;
             width: 200px;
             height: 200px;
-            background: radial-gradient(circle, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 100%);
+            background: radial-gradient(circle, rgba(11, 0, 110, 0.8) 0%, rgba(27, 2, 170, 0.6) 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -217,7 +217,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 100%);
+            background: linear-gradient(to bottom, rgb(3, 1, 151) 0%, rgba(0,0,0,0.3) 50%, rgba(53, 18, 254, 0.7) 100%);
             z-index: 1;
         }
 
@@ -335,7 +335,7 @@
 
         /* Sección de información adicional */
         .info-section {
-            background-color: #111;
+            background-color: #290185;
             padding: 80px 40px;
             text-align: center;
         }
@@ -360,7 +360,7 @@
 
         .info-item {
             padding: 30px;
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: rgb(29, 2, 150);
             border-radius: 10px;
             transition: all 0.3s ease;
         }
@@ -383,7 +383,7 @@
 
         /* Footer */
         .footer {
-            background-color: #000;
+            background-color: #27018e;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             padding: 40px;
             text-align: center;
@@ -431,7 +431,7 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(11, 1, 156, 0.853);
             transition: all 0.3s ease;
             z-index: 999;
         }
@@ -605,10 +605,10 @@
         window.addEventListener('scroll', () => {
             const header = document.querySelector('.header');
             if (window.scrollY > 100) {
-                header.style.backgroundColor = 'rgba(0, 0, 0, 0.98)';
+                header.style.backgroundColor = 'rgba(11, 1, 156, 0.853)';
                 header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.5)';
             } else {
-                header.style.backgroundColor = 'rgba(0, 0, 0, 0.95)';
+                header.style.backgroundColor = 'rgba(11, 1, 156, 0.853)';
                 header.style.boxShadow = 'none';
             }
         });
